@@ -12,7 +12,7 @@
 
     <!-- Main content Section starts-->
     <div class="main-content">
-    <div class="wrapper">Main content goes here</div>
+    <div class="wrapper">Main Content goes here</div>
     </div>
     <!-- Main content section end-->
 
