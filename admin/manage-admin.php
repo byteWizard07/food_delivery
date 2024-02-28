@@ -10,9 +10,18 @@
     <div class="wrapper">
         <h1>Manage Admin</h1>
 <br>
+
+<?php
+    if(isset($_SESSION['add']))
+    {
+        echo $_SESSION['add']; // displaying session message
+        unset($_SESSION['add']); // removing session message
+    }
+?>
 <br>
+<br> <br>
 <!-- button to add admin -->
-<a href="#" class="btn-primary">Add admin</a>
+<a href="add-admin.php" class="btn-primary">Add admin</a>
 <br>
 <br>
         <table class="tbl-full">
